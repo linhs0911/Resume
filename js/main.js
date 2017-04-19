@@ -56,16 +56,6 @@
     			$('#self-introduction').show().siblings('div').hide();
 			};
 		});
-		$('#btn-Interest').on('click',function(){
-    		if($('#interest').css('display')=='none'){
-    			$('#interest').show().siblings('div').hide();
-			};
-		});		
-		$('#btn-Feature').on('click',function(){
-    		if($('#feature').css('display')=='none'){
-    			$('#feature').show().siblings('div').hide();
-			};
-		});
 		$('#btn-Skill').on('click',function(){
     		if($('#skill').css('display')=='none'){
     			$('#skill').show().siblings('div').hide();
