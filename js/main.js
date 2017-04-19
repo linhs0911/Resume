@@ -71,7 +71,12 @@
     			$('#skill').show().siblings('div').hide();
 			};
 		});
-
+		$('#arrow').on('click',function(){
+			var scroll_offset = $("#content-main").offset(); 
+			$("body,html").animate({
+				scrollTop:scroll_offset.top 
+			},1000);
+		});
 	}
 
 	init();

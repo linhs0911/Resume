@@ -47,8 +47,9 @@ a:focus {
 	color: #4a4244;
 	background: url("../img/6ee7c89ff9355b301c0b2c95e07a575b.png");
 	background-size:cover;
+	
 	background-position:right center;
-	transform: perspective(1000px) translate3d(5.55208px, 5.93857px, 29.6928px) rotate3d(-0.593857, 0.555208, 0, 2deg);
+	/*transform: perspective(1000px) translate3d(5.55208px, 5.93857px, 29.6928px) rotate3d(-0.593857, 0.555208, 0, 2deg);*/
 }
 
 .codrops-header a:hover,
