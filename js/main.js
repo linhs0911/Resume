@@ -61,6 +61,12 @@
     			$('#skill').show().siblings('div').hide();
 			};
 		});
+		
+		$('#btn-Motivation').on('click',function(){
+    		if($('#motivation').css('display')=='none'){
+    			$('#motivation').show().siblings('div').hide();
+			};
+		});
 		$('#arrow').on('click',function(){
 			var scroll_offset = $("#content-main").offset(); 
 			$("body,html").animate({
